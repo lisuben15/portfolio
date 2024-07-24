@@ -37,19 +37,14 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'Mi experiencia',
-  description: "Desarrollador web con experiencia en diversos proyectos, tanto en entornos académicos como en trabajos freelance. Me he especializado en desarrollo full stack, ofreciendo soluciones completas y eficientes para mis clientes.",
+  description: "Desarrollador web con experiencia en proyectos académicos y trabajos freelance. Especializado en desarrollo Fullstack, ofrezco soluciones completas y eficientes adaptadas a las necesidades de cada cliente. Disfruto trabajando en equipo y continuamente busco aprender nuevas tecnologías y metodologías para mejorar mis habilidades y aportar más valor a los proyectos.",
   items: [
     {
-      company: "",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Freelance",
+      position: "Desarrollador Fullstack",
+      duration: "Agosto 2023 - Julio 2024",
     },
-    {
-      company: "",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    
+     
   ]
 }
 

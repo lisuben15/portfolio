@@ -3,7 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaAngular, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from "@/components/ui/tooltip";
 
@@ -22,28 +22,29 @@ const Home = () => {
       },
       {
         icon: <FaJs />,
-        name: "javascript",
+        name: "Javascript",
       },
       {
         icon: <FaReact />,
-        name: "react.js",
+        name: "React",
       },
       {
         icon: <SiNextdotjs />,
-        name: "next.js",
+        name: "Next.js",
       },
       {
         icon: <SiTailwindcss />,
-        name: "tailwind.css",
+        name: "tailwind",
       },
       {
-        icon: <FaNodeJs />,
-        name: "node.js",
+        icon: <FaAngular />,
+        name: "Angular",
       },
       {
         icon: <FaFigma />,
-        name: "figma",
+        name: "Figma",
       },
+      
     ]
 
   }
