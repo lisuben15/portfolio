@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+
 import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
@@ -44,7 +44,7 @@ const Home = () => {
         icon: <FaFigma />,
         name: "Figma",
       },
-      
+
     ]
 
   }
@@ -62,10 +62,10 @@ const Home = () => {
             <p className="max-w-[500px] mb-9 text-white/80">
               Estudiante - Técnico Universitario en Programación. Universidad Tecnológica Nacional. Freelancer con más de 1 año de experiencia en tecnologías .NET y React.  </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+              <a href="/documento.pdf" download="CV_Garcia_Gaston.pdf"  className="uppercase flex items-center gap-2 bg-[--accent] rounded-full px-6 py-2 text-black font-semibold">
                 <span>Descargar CV</span>
                 <FiDownload className="text-xl"></FiDownload>
-              </Button>
+              </a>            
               <div className="mb-8 xl:mb-0">
                 <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"></Social>
               </div>
@@ -79,7 +79,7 @@ const Home = () => {
       <Stats />
       <div className="flex flex-col gap-[30px] container my-20">
         <div className="flex flex-col gap-[30px] text-center xl:text-left">
-          <h3 className="text-4xl font-bold">{skills.title}</h3>       
+          <h3 className="text-4xl font-bold">{skills.title}</h3>
         </div>
         <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
           {skills.skillList.map((skill, index) => {
