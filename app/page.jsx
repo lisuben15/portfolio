@@ -60,7 +60,7 @@ const Home = () => {
             </h1>
             <span className="text-2xl text-accent">Desarrollador Fullstack</span>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Estudiante - Técnico Universitario en Programación. Universidad Tecnológica Nacional. Freelancer con más de 1 año de experiencia en tecnologías .NET y React.  </p>
+              Estudiante de la tecnicatura universitaria en programación en la Universidad Tecnológica Nacional (UTN). Freelancer con más de 1 año de experiencia en proyectos con tecnologías .NET con Angular y Next JS (React).  </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a href="/documento.pdf" download="CV_Garcia_Gaston.pdf"  className="uppercase flex items-center gap-2 bg-[--accent] rounded-full px-6 py-2 text-black font-semibold">
                 <span>Descargar CV</span>
