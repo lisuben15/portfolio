@@ -8,13 +8,10 @@ const stats = [
         text: "Año de experiencia",
     },
     {
-        num: 7,
+        num: 4,
         text: "Proyectos completos",
     },
-    {
-        num: 4,
-        text: "Tecnologías dominadas",
-    },
+   
 ];
 
 const Stats = () => {
@@ -24,7 +21,7 @@ const Stats = () => {
                 <div className="flex flex-wrap gap-6 max-w-[80px] mx-auto xl:max-w-none">
                     {stats.map((item, index) => {
                         return (
-                            <div className="flex-1 flex gap-4 items-center justify-center xl:justify-start" Key={index}>
+                            <div className="flex-1 flex gap-4 items-center justify-center" Key={index}>
                                 <CountUp
                                     end={item.num}
                                     duration={5}

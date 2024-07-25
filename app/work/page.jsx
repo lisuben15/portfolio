@@ -24,7 +24,7 @@ const projects = [
   },
   {
     num: "02",
-    category: "frontend",
+    category: "fullstack",
     title: "project 2",
     description: "Participé en el desarrollo de una aplicación de códigos referidos, enfocándome en el frontend y el testing. Utilicé tecnologías como Next.js y Tailwind CSS. Implementé el diseño responsivo, asegurando una experiencia de usuario consistente en dispositivos móviles y de escritorio.",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
@@ -95,33 +95,7 @@ const Work = () => {
                 })}
               </ul>
               <div className="border border-white/20"></div>
-              <div className="flex items-center gap-4">
-                <Link href={project.live}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Live project</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
-                <Link target="_blank" href={project.github} >               
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent" />
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Github repository</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
-
-              </div>
+              
             </div>
           </div>
           <div className="w-full xl:w-[50%]">

@@ -9,7 +9,7 @@ const about = {
   info: [
     {
       fieldName: "Nombre",
-      fieldValue: "García Gastón"
+      fieldValue: "Gastón García"
     },
     {
       fieldName: "Teléfono",
@@ -29,7 +29,7 @@ const about = {
     },
     {
       fieldName: "Lenguajes",
-      fieldValue: "Español, Ingles"
+      fieldValue: "Español, Inglés"
     },
   ]
 };
@@ -164,7 +164,7 @@ const Resume = () => {
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
                           <div className="flex items-center gap-3">
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.institution}</p>
+                            <p className="text-white/60 text-xs">{item.institution}</p>
                           </div>
                         </li>
                       );

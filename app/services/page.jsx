@@ -6,7 +6,7 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "web Development",
+    title: "Desarrollador Web",
     description: "Desarrollador web con experiencia en la creación de sitios y aplicaciones web eficientes y atractivos. Especializado en HTML, CSS, JavaScript y frameworks modernos como React y Angular. Comprometido con la calidad del código y la experiencia del usuario, siempre buscando innovar y mejorar en cada proyecto.",
     href: ""
   },
