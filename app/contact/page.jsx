@@ -48,7 +48,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
     await crearContactoAction(formData);
-    showToast("success", <p className="flex items-center h-[50px]">Se ha enviado con éxito.</p>);
+    
   }
 
   return <motion.section initial={{ opacity: 0 }}
