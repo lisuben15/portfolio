@@ -56,7 +56,7 @@ const education = {
     {
       institution: "Universidad Tecnológica Nacional",
       degree: "Técnico Universitario en Programación",
-      duration: "2022 - Presente",
+      duration: "2022 - 2024",
     },
   ]
 }
