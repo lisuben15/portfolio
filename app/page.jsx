@@ -62,7 +62,7 @@ const Home = () => {
             <p className="max-w-[500px] mb-9 text-white/80">
               Graduado como Técnico Universitario en Programación de la Universidad Tecnológica Nacional (UTN). Freelancer con más de 1 año de experiencia en proyectos con tecnologías .NET con Angular y Next JS (React).  </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="/documento.pdf" download="CV_Garcia_Gaston.pdf"  className="uppercase flex items-center gap-2 bg-[--accent] rounded-full px-6 py-2 text-black font-semibold">
+              <a href="/documento.pdf" download="CV_Garcia_Gaston.pdf"  className="uppercase flex items-center gap-2 bg-[#074f92] rounded-full px-6 py-2 text-slate-400 font-bold">
                 <span>Descargar CV</span>
                 <FiDownload className="text-xl"></FiDownload>
               </a>            

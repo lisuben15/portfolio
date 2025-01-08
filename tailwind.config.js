@@ -27,8 +27,8 @@ module.exports = {
       colors: {
        primary: "#1c1c22",
        accent: {
-          DEFAULT: "#00ff99",
-          hover: "#00e187",
+          DEFAULT: "#0857a1",
+          hover: "#1383ec",
        },
       },
       keyframes:{
@@ -50,6 +50,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        'inner-custom': 'inset 0px 0px 30px rgba(30, 30, 100, 5.9)',
+      }
     
     },
   },

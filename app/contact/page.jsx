@@ -62,8 +62,8 @@ const Contact = () => {
       <div className="flex flex-col xl:flex-row gap-[30px]">
         <div className="xl:w-[54%] order-2 xl:order-none">
           <form  onSubmit={handleSubmit} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-            <h3 className="text-4xl text-accent">Trabajemos juntos</h3>
-            <p className="text-white/60">Estoy emocionado de colaborar en tu próximo proyecto. Completa el formulario a continuación y me pondré en contacto contigo lo antes posible para discutir cómo puedo ayudarte a alcanzar tus objetivos.
+            <h3 className="text-4xl text-accent">Conectemos</h3>
+            <p className="text-white/60">Si estás buscando un programador para tu equipo o proyecto, no dudes en escribirme. Completa el formulario a continuación y consideraré tu propuesta con mucho gusto.
             </p>
 
             <div className="grid grid-cols-1 gap-6">
@@ -87,7 +87,7 @@ const Contact = () => {
 
             <Textarea className="h-[200px]" placeholder="Escribe tu mensaje aquí"></Textarea>
 
-            <button type="submit" className=" text-nowrap rounded-full bg-[#00ff99] text-[#1c1c22] h-[44px] font-semibold px-4" >Enviar mensaje</button>
+            <button type="submit" className=" text-nowrap rounded-full bg-[#0857a1] text-[#1c1c22] h-[44px] font-semibold px-4" >Enviar mensaje</button>
           </form>
         </div>
         <div className="flex-1 flex items-center xl:justify-end order-1
